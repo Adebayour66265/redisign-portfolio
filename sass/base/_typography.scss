@@ -1,0 +1,101 @@
+body {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-primary-light;
+}
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-black, 0.75),
+      rgba($color-body-next, 0.88)
+    ),
+    url(/img/my-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+
+  &_logo-box {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+}
+
+.logo-box a .logo {
+  height: 9rem;
+}
+.text-box {
+  position: absolute;
+  top: 50%;
+  padding: 2rem;
+}
+
+.heading-primary {
+  font-family: 'Poppins', sans-serif;
+  color: $color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+
+  &--main {
+    display: block;
+    animation: moveInLeft 1s ease-out;
+    transition: 0.5s ease-out;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  &--sub {
+    display: block;
+    animation: moveInRight 1s ease-out;
+    transition: 0.5s ease-out;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    
+  }
+  &--main sub {
+    font-size: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+.heading-secondary {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right top,
+  rgba($color-black, 0.55),
+  rgba($color-body-next, 0.58)
+   );
+   background-clip: none;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.1rem;
+  transition: all 0.2s;
+
+
+  &:hover {
+    transform: skewY(10deg) skewX(1deg);
+    text-shadow: .5rem .5rem 3rem rgba($color-black, 0.5);
+  }
+}
+
+
+.headeing-tertiary{
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph{
+  font-size: 1rem;
+
+
+  &:not(:last-child){
+    margin-bottom: 3rem;
+  }
+}

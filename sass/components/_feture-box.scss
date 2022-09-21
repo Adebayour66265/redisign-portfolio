@@ -1,0 +1,21 @@
+.feature-box{
+    background-color: brown;
+    font-family: 1.5rem;
+    padding: 2.5rem;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.397);
+    transition: transform .3s;
+    display: block;
+    text-align: center;
+    height: 40vh;
+    &:hover{
+        transform: translateY(-1.5rem) scale(1.1);
+    }
+
+}
+    .feature-image{
+        // width: 40vh;
+        height: 40vh;
+    }
+    
+

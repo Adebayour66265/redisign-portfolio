@@ -1,0 +1,129 @@
+.section{
+    padding: 2rem 0 4rem;
+}
+
+.section_tittle{
+    font-size: 1rem;
+}
+
+.section_subtittle{
+    display: block;  
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.section_tittle,
+.section_subtittle{
+    text-align: center;
+}
+
+/*==============    SKILL   ==================*/
+.skills_container{
+    row-gap: 0;
+
+}
+.skills_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.skills_icon,
+.skills_arrow{
+    font-size: 2rem;
+    color: dodgerblue;
+}
+.skills_icon{
+    margin-right: 1rem;
+}
+
+.skills_tittle{
+   font-size: 1rem;
+}
+.skills_subtitle{
+    font-size: 1rem;
+    color: blueviolet;
+    }
+
+
+.skills_list{
+    row-gap: 1.2rem;
+    padding-left: 3rem;
+}  
+.skills_arrow{
+    margin-left: auto;
+    transition: .4s
+}
+.skills_tittles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+.skills_name{
+    font-size: .7rem;
+    font-weight: 700;
+}
+.skills_bar,
+.skills_parcentange{
+    height: 5px;
+    border-radius: .25rem;
+}
+.skills_bar{
+    background-color: rgba(30, 143, 255, 0.466);
+}
+.skills_parcentange{
+    display: block;
+    background-color: dodgerblue;
+}
+.skills_html{
+    width: 90%;
+}
+.skills_css{
+    width: 80%;
+}
+.skills_js{
+    width: 68%;
+}
+.skills_bs{
+    width: 78%;
+}
+.skills_mango{
+    width: 56%;
+}
+.skills_react{
+    width: 86%;
+}
+.skills_ejs{
+    width: 88%;
+}
+.skills_api{
+    width: 90%;
+}
+
+.skills_close .skills_list{
+    height: 0;
+    overflow: hidden;
+}
+.skills_open .skills_list{
+    height: max-content;
+    margin-bottom: 1rem;
+}
+.skills_open .skills_arrow{
+    transform: rotate(-180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    
+}

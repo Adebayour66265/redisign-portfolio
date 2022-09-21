@@ -1,0 +1,42 @@
+
+.home_social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+    padding: 0 2rem;
+}
+.home_social-icon{
+    font-size: 1.25rem;
+    color: #fff;
+}
+.home_social-icon:hover{
+    color: dodgerblue;
+}
+
+/* change background */
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(29, 21, 21, 0.85);
+}
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: 10%;
+    background-color: var(--first-color);
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+.scrollup:hover{
+    background-color: var(--first-color-alt);
+}
+.scrollup_icon{
+    font-size: 1.5rem;
+    color: #fff;
+}
+/* show scroll*/
+.show-scroll{
+    bottom: 5rem;
+    display: block;
+}
